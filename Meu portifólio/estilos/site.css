@@ -44,7 +44,8 @@
 @media screen and (max-width:500px) {
   /* For mobile phones: */
   .header, .nav, .main, .footer {
-    width: 100%;
+	width: 100%;
+	padding: 0;
   }
 }
 

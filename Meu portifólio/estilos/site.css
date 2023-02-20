@@ -10,6 +10,7 @@
 	text-align:center;
 	background-color:white;
 	grid-area:header;
+	width: 100%;
 }
 
 /*formatação do menu de navegação*/
@@ -28,6 +29,7 @@
 	grid-area:main;
 	text-align: center;
 	font-family: 'Archivo Narrow';
+	width:100%;
 	font-size:22px;
 	background-color: white;
 	padding-top:50px;
@@ -37,11 +39,12 @@
 .footer{
 	grid-area: footer;
 	text-align: center;
-    border: solid #FFA500;
+	width: 100%;
+    	border: solid #FFA500;
 	padding-bottom: 50px;
-    padding-top: 100px;
-    background-color: #FFA500;
-    color: #000000;
+    	padding-top: 100px;
+    	background-color: #FFA500;
+    	color: #000000;
 }
 
 /*tabela*/

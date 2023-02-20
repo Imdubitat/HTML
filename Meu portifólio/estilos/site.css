@@ -46,8 +46,8 @@
 }
 
 @media screen and (max-width: 800px) {
-  .nav, .main, .footer, .header {
-    width: 50%; /* The width is 100%, when the viewport is 800px or smaller */
+  .nav, .footer {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
 	}
 }
 

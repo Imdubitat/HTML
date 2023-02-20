@@ -16,7 +16,6 @@
 /*formatação do menu de navegação*/
 .nav{
 	grid-area:nav;
-	position: absolute;
 	text-align: center;
 	font-size:24px;
 	width: 100%;

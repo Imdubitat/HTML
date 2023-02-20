@@ -15,8 +15,11 @@
 /*formatação do menu de navegação*/
 .nav{
 	grid-area:nav;
+	position: absolute;
+	left:25%;
 	text-align: center;
 	font-size:24px;
+	width: 50%;
 	background-color:#FFA500;
 }
 
@@ -34,17 +37,18 @@
 .footer{
 	grid-area: footer;
 	text-align: center;
-    	border: solid #FFA500;
+    border: solid #FFA500;
 	padding-bottom: 50px;
-    	padding-top: 100px;
-    	background-color: #FFA500;
-    	color: #000000;
+    padding-top: 100px;
+    background-color: #FFA500;
+    color: #000000;
 }
 
 /*tabela*/
 table{
     border:solid white;
 	text-align:left;
+	width:900px;
 }
 .dropdown-content a:hover {
 	background-color: gold;

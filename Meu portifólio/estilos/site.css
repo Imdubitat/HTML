@@ -51,7 +51,7 @@
 	}
 }
 @media screen and (max-width: 500px) {
-  .main {
+  .bio {
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
 	  padding:0;
 	}

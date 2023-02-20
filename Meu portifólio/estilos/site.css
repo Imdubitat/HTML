@@ -132,11 +132,8 @@ li a:hover{
 h1{
 	font-family:'roboto', sans-serif;
 	font-size: 30px;
-}
-.bio{
-	text-align: justify;
-	
-}
+}	
+
 .assinatura{
 	font-family: 'Aguafina Script';
 	font-size: 22px;

@@ -10,7 +10,6 @@
 	text-align:center;
 	background-color:white;
 	grid-area:header;
-	width: 100%;
 }
 
 /*formatação do menu de navegação*/
@@ -18,7 +17,6 @@
 	grid-area:nav;
 	text-align: center;
 	font-size:24px;
-	width: 100%;
 	background-color:#FFA500;
 }
 
@@ -27,7 +25,6 @@
 	grid-area:main;
 	text-align: center;
 	font-family: 'Archivo Narrow';
-	width:100%;
 	font-size:22px;
 	background-color: white;
 	padding-top:50px;

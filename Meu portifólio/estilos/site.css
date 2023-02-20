@@ -45,7 +45,7 @@
 	width:100%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .nav, .main, .footer, .header {
     width: 80%; /* The width is 100%, when the viewport is 800px or smaller */
   }
@@ -55,7 +55,7 @@
 table{
 	border:solid white;
 	text-align:left;
-	width:80%;
+	
 }
 .dropdown-content a:hover {
 	background-color: gold;

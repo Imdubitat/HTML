@@ -137,7 +137,7 @@ h1{
 .assinatura{
 	font-family: 'Aguafina Script';
 	font-size: 22px;
-	text-align: right;
+	padding-left:25%;
 }
 .bio{
 	text-align:justify;

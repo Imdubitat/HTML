@@ -45,12 +45,12 @@
 	width:100%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 300px) {
   .nav, .footer {
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
 	}
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 300px) {
   .bio {
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
 	  padding-left:0;

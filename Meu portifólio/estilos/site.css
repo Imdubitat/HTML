@@ -1,0 +1,131 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*formatação do cabeçalho*/
+.header{
+	text-align:center;
+	background-color:white;
+	grid-area:header;
+}
+
+/*formatação do menu de navegação*/
+.nav{
+	grid-area:nav;
+	position: absolute;
+	left:25%;
+	text-align: center;
+	font-size:24px;
+	width: 50%;
+	background-color:#FFA500;
+}
+
+/*formatação da área do conteúdo principal*/
+.main{
+	grid-area:main;
+	text-align: center;
+	font-family: 'Archivo Narrow';
+	font-size:22px;
+	background-color: white;
+	padding-top:50px;
+}
+
+/*formatação do rodapé*/
+.footer{
+	grid-area: footer;
+	text-align: center;
+    border: solid #FFA500;
+	padding-bottom: 50px;
+    padding-top: 100px;
+    background-color: #FFA500;
+    color: #000000;
+}
+
+/*tabela*/
+table{
+    border:solid white;
+	text-align:left;
+	width:900px;
+}
+.dropdown-content a:hover {
+	background-color: gold;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*formaatação da lista não ordenada utilizada para a elebaoração do menu*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+/*formataçaõ em comum de cada item da lista*/
+li{
+	display:inline-block;
+}
+/*formatação de todo item da lista que conter um link*/
+li a {
+  color:black;
+  text-align: center;
+  display:block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+/*formatação do item da lista que tiver o mouse sobre ele*/
+li a:hover{
+  background-color: gold;
+}
+.redessociais{
+	text-align:center;
+	letter-spacing:15px;
+}
+.perfil{
+	border-radius:50%;
+	width:300px;
+	height:300px;
+}
+
+/*definição grid*/
+.grid-container {
+	display: grid;
+	grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main'
+    'footer footer footer footer footer footer';
+	background-color: #ffffff;
+}
+
+/*logo do youtube*/
+#yout{
+	font-size:24px;
+	color:#000000;
+}
+/*logo do android*/
+#insta{
+	font-size:24px;
+	color:#000000;
+}
+/*logo do Twitter*/
+#twitter{
+	font-size:24px;
+	color:#000000;
+}
+h1{
+	font-family:'roboto', sans-serif;
+	font-size: 30px;
+}
+.bio{
+	text-align: justify;
+	padding-left: 350px;
+}
+.assinatura{
+	font-family: 'Aguafina Script';
+	font-size: 22px;
+	text-align: right;
+}

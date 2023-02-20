@@ -51,10 +51,13 @@
 	}
 }
 @media screen and (max-width: 500px) {
-	.bio,.perfil, .logo, .header {
+	.bio,.perfil {
 		width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
 		padding-left:0;
 	}
+	.logo{
+		width:200;
+		height:100;
 }
 
 /*tabela*/

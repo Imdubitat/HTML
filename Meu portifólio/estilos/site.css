@@ -45,18 +45,19 @@
 	width:100%;
 }
 
-@media screen and (max-width: 100px) {
+@media screen and (max-width: 500px) {
   .nav, .footer {
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
 	}
 }
-@media screen and (max-width: 100px) {
-  .bio,.perfil, .logo {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-	  padding-left:0;
-	width:300px;
-	height:400px;
-}
+@media screen and (max-width: 500px) {
+	.bio,.perfil, .logo {
+		width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+		padding-left:0;
+	}
+	.logo{
+		width:300px;
+		height:200px;
 	}
 }
 

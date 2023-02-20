@@ -44,7 +44,7 @@
     	background-color: #FFA500;
     	color: #000000;
 }
-@media only screen and (max-width:500px) {
+@media screen and (max-width:500px) {
   /* For mobile phones: */
   .header, .nav, .main, .footer {
     width: 100%;

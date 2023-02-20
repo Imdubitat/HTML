@@ -1,5 +1,9 @@
-* {
-  box-sizing: border-box;
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 /*formatação do cabeçalho*/
 .header{
@@ -11,6 +15,8 @@
 /*formatação do menu de navegação*/
 .nav{
 	grid-area:nav;
+	position: absolute;
+	left:25%;
 	text-align: center;
 	font-size:24px;
 	width: 50%;
@@ -24,10 +30,7 @@
 	font-family: 'Archivo Narrow';
 	font-size:22px;
 	background-color: white;
-	float: left;
-	width: 60%;
-  padding: 0 20px;
-  overflow: hidden;
+	padding-top:50px;
 }
 
 /*formatação do rodapé*/
@@ -40,19 +43,7 @@
     background-color: #FFA500;
     color: #000000;
 }
-@media only screen and (max-width:800px) {
-  /* For tablets: */
-  .nav, .footer {
-    width: 100%;
-    padding: 0;
-  }
-}
-@media only screen and (max-width:500px) {
-  /* For mobile phones: */
-  .nav, .footer {
-    width: 100%;
-  }
-}
+
 /*tabela*/
 table{
     border:solid white;

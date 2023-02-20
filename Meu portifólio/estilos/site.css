@@ -55,7 +55,7 @@
 table{
 	border:solid white;
 	text-align:left;
-	
+	width:80%;
 }
 .dropdown-content a:hover {
 	background-color: gold;

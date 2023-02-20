@@ -57,12 +57,6 @@
 	}
 }
 
-/*tabela*/
-table{
-	border:solid white;
-	text-align:left;
-	width:80%;
-}
 .dropdown-content a:hover {
 	background-color: gold;
 }
@@ -140,8 +134,4 @@ h1{
 }
 .bio{
 	text-align:justify;
-}
-.logo{
-	width:300px;
-	height:400px;
 }

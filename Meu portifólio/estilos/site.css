@@ -55,7 +55,7 @@
 		width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
 		padding-left:0;
 	}
-	.logo{
+	.header{
 		width:300px;
 		height:200px;
 	}

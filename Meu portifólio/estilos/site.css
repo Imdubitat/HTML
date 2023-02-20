@@ -50,6 +50,12 @@
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
 	}
 }
+@media screen and (max-width: 500px) {
+  .main {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+	  padding:0;
+	}
+}
 
 /*tabela*/
 table{

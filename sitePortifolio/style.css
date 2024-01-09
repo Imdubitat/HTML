@@ -1,0 +1,93 @@
+body {
+	font-family: Arial, sans-serif;
+	background-image: url("./imagens/wall.jpg");
+}
+
+header {
+	background-color: #000000;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+header img {
+	width: 5%;
+	height: auto;
+}
+nav {
+	border-radius: 10px;
+	margin: 5px;
+	padding: 10px;
+	text-align: center;
+	background-color: #000000;
+}
+
+nav a {
+	color: #ffffff;
+	text-decoration: none;
+	margin: 0 20px;
+}
+
+nav a:hover {
+	color: #ed0b65;
+	background-color: transparent;
+}
+
+section {
+	padding: 20px;
+}
+
+.image-container {
+	text-align: center;
+}
+
+.profile-image {
+	max-width: 75%; /* Define a largura máxima da imagem */
+	height: auto; /* Mantém a proporção da imagem */
+	display: inline-block; /* Permite centralizar a imagem com texto ao lado */
+	border-radius: 50%;
+}
+
+.skills {
+	color: #ffffff;
+    list-style-type: none;
+    padding: 0;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.voltartopo {
+	text-align: right;
+	padding: 20px;
+	padding-right: 50px;
+}
+
+.rodape{
+	background: rgba(255, 255, 255, 0.3);
+	color: #ffffff; 
+	border-radius: 10px;
+	margin: 100px;
+}
+
+footer a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #fcae11;
+	background-color: transparent;
+}
+
+#meusprojetos a{
+	text-decoration: none;
+}

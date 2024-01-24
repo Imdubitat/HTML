@@ -1,1 +1,1 @@
-This is my first web project. It's objective is to be a personal portfolio page.
+This project aims to apply my knowledge of HTML, CSS and JS to a personal portfolio page.

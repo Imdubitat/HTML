@@ -1,0 +1,74 @@
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+/*Formatação do cabeçalho*/
+.cabecalho {
+    background-color: #fead26;
+    text-align: center;
+    padding: 15px;
+}
+
+.menu {
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu a:hover {
+    color: #590f0c;
+}
+
+
+/*Formatação da área de conteúdo central*/
+.principal {
+    width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+.postagens {
+    width: 660px;
+	float: left;
+}
+
+.conteudo {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10 10;
+}
+
+
+/*Formatação da área lateral*/
+.barra-lateral {
+    width: 240px;
+	float: right;
+}
+.conteudo-lateral {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-top: 20px;
+    border-style: groove;
+}
+
+.conteudo-lateral a{
+    text-decoration: none;
+    color:#fead26;
+}
+
+.conteudo-lateral a:hover{
+    color: #590f0c;
+}
+
+/*Formatação do rodapé*/
+.rodape {
+    clear: both;
+    background-color: #ccc;
+    text-align: center;
+    padding: 15px;
+}

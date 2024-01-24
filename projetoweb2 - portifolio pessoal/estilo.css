@@ -1,0 +1,30 @@
+body {
+    background: url(imagens/fundo.png);
+}
+
+.menu {
+    width: 50%;
+    padding: 18px;
+}
+
+.menu a {
+    color: gray;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: blue;
+}
+
+.conteudo {
+    background-color: white;
+    width: 50%;
+    padding: 10px;
+}
+
+.rodape {
+    width: 50%;
+    text-align: center;
+}

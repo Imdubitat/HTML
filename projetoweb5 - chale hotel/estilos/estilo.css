@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, "Trebuchet MS", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    background: url('/imagens/bg-container.png') no-repeat;
+    min-width: 740px;
+    max-width: 1180px;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 200px;
+}
+
+.area-logo {
+    width: 60%;
+    height: 100%;
+    background: url('/imagens/topo-imagem-principal.png') no-repeat;
+    z-index: 1;
+    float: left;
+}
+
+.area-menu {
+    width: 40%;
+    height: 100%;
+    background: url('/imagens/topo-imagem-lateral.png') no-repeat;
+    float: right;
+    z-index: 2;
+}
+
+.menu-locais {
+    margin: 10px 50px 0 50px;
+    border-bottom: 1px solid #b5ab56;
+	border-top: 1px solid #b5ab56;
+	font-size: 0.7em;
+	color: #8b8448;
+}
+
+.menu-locais a {
+    background-color: #6e672c;
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.locais {
+    line-height: 2.2em;
+}
+
+.menu-navegacao ul {
+    list-style-type: none;
+    margin: 30px 0 50px 100px;
+}
+
+.menu-navegacao ul li {
+    margin: 5px;
+}
+
+.menu-navegacao a {
+    text-decoration: none;
+    font-size: 0.8em;
+    color: #6e672c;
+    padding: 5px;
+}
+
+.menu-navegacao a:hover {
+    background-color: #fdf6be;
+}
+
+.conteudo {
+    margin: 10px;
+}
+.coluna-esquerda {
+    padding: 5px;
+    width: 49%;
+    float: left;
+}
+
+.coluna-esquerda h2 {
+    color:#6e672c;
+}
+
+.coluna-esquerda p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.coluna-direita {
+    width: 49%;
+    float: right;
+    background-color: #dfdfdf;
+}
+
+.coluna-direita ul {
+    list-style-type: none;
+}
+
+.coluna-direita li {
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.coluna-direita a{
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+}
+
+.coluna-direita li:hover {
+    background-color: #ffffff;
+}
+
+.coluna-direita img {
+    margin-right: 10px;
+    float: left;
+}
+
+.coluna-direita h3 p{
+    float: left;
+}
+
+.coluna-direita p {
+    font-size: 0.8em;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.coluna-direita h3 {
+    color:#6e672c;
+    margin-bottom: 5px;
+}
+
+
+.rodape {
+    clear: both;
+    padding: 20px;
+    text-align: center;
+    background:url('/imagens/bg-rodape.png');
+}
